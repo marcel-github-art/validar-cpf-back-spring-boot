@@ -19,4 +19,9 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
+@GetMapping("/")
+	public String index() {
+	
+		 return "{\"mensagem\": \"api Itau Turma7c\"}";
+	}
 }
